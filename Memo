@@ -1,7 +1,11 @@
-- 管理権限ない時の　PATH 設定
+**管理権限ない時の　PATH 設定**
+
 [参考１](https://qiita.com/asterisk9101/items/7f1924a1402a4c9825e7)
 [参考２](http://www.ne.jp/asahi/hishidama/home/tech/windows/cmd/cmd.html#AutoRun)
-```init.bat
+
+
+```
+init.bat
 set PATH=C:\temp\bat\;%PATH% 
 ```
 
